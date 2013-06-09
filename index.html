@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Background Video</title>
+	<link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" charset="utf-8" src="js/jquery.tubular.1.0.js"></script>
+
+	<script type="text/javascript" charset="utf-8">
+		$().ready(function() {
+			$('#wrapper').tubular({videoId: 'mzX0rhF8buo', mute: false, ratio: 4/3}); // where idOfYourVideo is the YouTube ID.
+		});
+	</script>
+	<style>
+	*{
+		padding: 0;margin: 0;
+	}
+	a{
+		text-decoration: none;
+		color: orange;
+	}
+	body{
+		font-family: 'Patrick Hand SC', cursive;
+		overflow: hidden; /* optional */
+	}
+	#wrapper{
+		background: transparent url(img/pattern.png) repeat top left;
+	}
+	header{
+		padding: 10px 20px;
+		color: #f4f4f4;
+	}
+	header h2{
+		text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8), 0 0 1px #fff;
+	}
+	header small{
+		font-size: 14px;
+	}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<h2>Make Youtube Video As Background Website <small>&nbsp;&nbsp;&nbsp;<a href="http://www.tutorial-webdesign.com">tutorial-webdesign.com</a></small></h2>
+			<p>Video: Dear God by Avenged Sevenfold | <a href="#">back to tutorial</a></p>
+		</header>
+	</div>
+</body>
+</html>
